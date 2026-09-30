@@ -52,7 +52,7 @@ namespace pruebas_unitarias
 
         private void Actualizar()
         {
-            this.entidad!.SistemaMedida = "Colombiano";
+            this.entidad!.SistemaMedida = "Europeo";
 
             var entry = this.conexion.Entry<Tallas>(this.entidad);
             entry.State = EntityState.Modified;
