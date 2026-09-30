@@ -51,7 +51,7 @@ namespace pruebas_unitarias
 
         public void Actualizar()
         {
-            this.entidad!.Nombre = "Blanco";
+            this.entidad!.Nombre = "Negro";
             var entry = this.conexion.Entry<Colores>(this.entidad);
             entry.State = EntityState.Modified;
             this.conexion.SaveChanges();
