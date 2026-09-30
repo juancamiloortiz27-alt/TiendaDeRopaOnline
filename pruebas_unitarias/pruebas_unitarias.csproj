@@ -12,6 +12,10 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Page Include="script2.sql" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\libreria_aplicaciones\libreria_aplicaciones.csproj" />
   </ItemGroup>
 

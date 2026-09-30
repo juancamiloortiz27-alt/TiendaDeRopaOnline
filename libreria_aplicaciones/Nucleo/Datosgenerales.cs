@@ -6,5 +6,5 @@
         {
             return "server=(localdb)\\MSSQLLocalDB;database=TIENDADEROPAONLINE2;Integrated Security=True;TrustServerCertificate=true";
         }
-    }
+    }                  
 }
