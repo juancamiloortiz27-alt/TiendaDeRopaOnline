@@ -13,7 +13,7 @@ namespace libreria_aplicaciones.entidades
         public string? Estado { get; set; }
         public decimal Total { get; set; }
         public int Cliente { get; set; }
-        // feid te ama
+        
         [ForeignKey(nameof(Cliente))]public Clientes? _Cliente { get; set; }
         public List<DetalleCarritos>? DetalleCarritos { get; set; }
     }
