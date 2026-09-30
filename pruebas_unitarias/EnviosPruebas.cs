@@ -104,7 +104,6 @@ namespace pruebas_unitarias
         private void Actualizar()
         {
             this.entidad!.Estado = "En proceso de entrega";
-
             var entry = this.conexion.Entry<Envios>(this.entidad);
             entry.State = EntityState.Modified;
             this.conexion.SaveChanges();
