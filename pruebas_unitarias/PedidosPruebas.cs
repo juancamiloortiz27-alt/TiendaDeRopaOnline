@@ -79,7 +79,7 @@ namespace pruebas_unitarias
 
         private void Actualizar()
         {
-            this.entidad!.Estado = "El pedido está en Camino";
+            this.entidad!.Estado = "Enviado";
             this.entidad.Total = 90000.00m;
 
             var entry = this.conexion.Entry<Pedidos>(this.entidad);
