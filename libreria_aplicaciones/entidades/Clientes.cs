@@ -12,6 +12,7 @@ namespace libreria_aplicaciones.entidades
         public string? Apellido { get; set; }
         public string? Correo { get; set; }
         public string? Telefono { get; set; }
+        public string? Contrasena { get; set; }
         public List<Direcciones>? Direccion { get; set; }
         public List<Carritos>? Carrito { get; set; }
         public List<Pedidos>? Pedido { get; set; }
